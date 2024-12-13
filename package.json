@@ -1,0 +1,27 @@
+{
+  "name": "tslsp",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack",
+    "pkg": "pkg dist/bundle.js --config package.json --output tslsp"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "typescript": "^5.7.2",
+    "typescript-language-server": "^4.3.3"
+  },
+  "pkg": {
+    "targets": [
+      "node18-macos-x64"
+    ],
+    "assets": "dist/*.json"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
