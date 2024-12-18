@@ -6,3 +6,4 @@ dist
 package-lock.json
 bin/*
 !bin/.gitkeep
+notes.md
