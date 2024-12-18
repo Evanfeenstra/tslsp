@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "webpack",
-    "pkg": "pkg dist/bundle.js --config package.json --output tslsp"
+    "pkg": "pkg dist/bundle.js --config package.json --output bin/tslsp"
   },
   "author": "",
   "license": "ISC",

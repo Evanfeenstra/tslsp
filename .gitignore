@@ -4,3 +4,5 @@ cli
 tslsp
 dist
 package-lock.json
+bin/*
+!bin/.gitkeep
